@@ -548,7 +548,7 @@
 		 * Desired limits always too close to 10A,
 		 * so pmic current limit is not triggered.
 		 */
-		nvidia,gpu-max-volt-mv = <800>;
+		nvidia,gpu-max-volt-mv = <900>; /*increased max gpu volt from 800*/
 	};
 
 	gpu-dvfs-rework {
